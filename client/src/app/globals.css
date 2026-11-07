@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.app { min-height: 100vh; background: #f4f5f7; color: #1b1f24; font-family: system-ui, sans-serif; display: flex; flex-direction: column; }
+.top { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: #1b1f24; color: #fff; }
+.brand { font-size: 18px; margin: 0; }
+.who { display: flex; gap: 8px; align-items: center; font-size: 14px; }
+.who select { padding: 6px 8px; border-radius: 6px; }
+.error { color: #b3261e; padding: 12px 20px; }
+.empty { padding: 40px 20px; text-align: center; color: #5b6570; }
+.chrome { display: flex; gap: 8px; align-items: center; padding: 10px 20px; background: #e6e9ed; border-bottom: 1px solid #cfd4da; }
+.nav { width: 36px; height: 36px; border-radius: 8px; border: 1px solid #b8bfc7; background: #fff; font-size: 18px; cursor: pointer; }
+.nav:disabled { opacity: 0.35; cursor: default; }
+.bar { flex: 1; display: flex; gap: 8px; }
+.bar input { flex: 1; padding: 8px 12px; border-radius: 8px; border: 1px solid #b8bfc7; font-size: 15px; }
+.go { padding: 0 16px; border-radius: 8px; border: 0; background: #2e7bd6; color: #fff; cursor: pointer; }
+.stage { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.meta { padding: 8px 20px; font-size: 13px; color: #5b6570; }
+.frame { flex: 1; width: 100%; min-height: 70vh; border: 0; background: #fff; }
+.notice { margin: 60px auto; max-width: 420px; text-align: center; color: #41505e; }
+.notice h2 { margin: 0 0 8px; }
