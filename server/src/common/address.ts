@@ -7,5 +7,5 @@ export function normalizeAddress(input: string): string {
 }
 
 export function isValidAddress(a: string): boolean {
-  return /^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*\.zz$/.test(a);
+  return a.length <= 253 && /^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*\.zz$/.test(a);
 }
